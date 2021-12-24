@@ -4,7 +4,7 @@ public class Pie extends Food {
     @Override // явное переопределение метода
     public boolean equals(Object obj) {
         if (!(obj instanceof Pie)){ // instanceof belirtilen nesnesin herhangi birture ait olup olmadigini kontrol eder
-            return false;
+           return false;
         }
         if (fill == null || ((Pie)obj).fill == null){ //null bir degiskenin hicbir deger tutmamasini ifade eder fill ile dolulugunu kontrol ediyoruz
             return false;

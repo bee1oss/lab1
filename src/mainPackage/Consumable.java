@@ -1,5 +1,5 @@
 package mainPackage;
 
-public interface Consumable {
+public interface Consumable{
     void consume();
 }

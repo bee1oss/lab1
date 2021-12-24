@@ -1,6 +1,6 @@
 package mainPackage;
 
-public class Apple extends Food {
+public class Apple extends  Food{
 
     @Override // явное переопределение метода
     public boolean equals(Object obj) {
