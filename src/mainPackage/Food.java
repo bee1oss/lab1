@@ -1,4 +1,4 @@
-package mainPackege;
+package mainPackage;
 
 public abstract class Food implements Consumable{ //abstract soyutlama.“implements”, “interface” uygulamak için kullanılan terimdir.
     private String name;

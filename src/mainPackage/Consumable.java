@@ -1,4 +1,4 @@
-package mainPackege;
+package mainPackage;
 
 public interface Consumable {
     void consume();
